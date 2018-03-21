@@ -1,0 +1,78 @@
+--  select ID,Response_ID,Question_ID,value, extension_ID from texter_survey_response_value where response_id= 69
+
+--  select ID, ACTOR_ID,Conversation_ID,Response_ID, Returning_responder, status,Time_submitted,time_imported from texter_survey_response
+
+-- `texter_survey_response.id = texter_survey_response_value.response_id`
+
+select * from texter_survey_response_value as v 
+        left join texter_survey_response as r on r.id=v.response_id
+
+
+
+
+;with CTE
+as
+(
+select v.ID, v.Response_ID, v.Question_ID,q.khpquestion , v.value , r.status, r.Time_submitted
+  from texter_survey_response_value as v 
+        left join texter_survey_response as r on r.id=v.response_id
+        left join [squestions as q] on v.Question_ID = q.qid
+)
+select response_id  as [ID]
+, MAX ( CASE when Question_ID = 69  then value END) as [Age]
+, MAX ( case when Question_ID = 73  then value END) as [Gender]
+
+, MAX ( case when Question_ID = 211 and value = 'Less Alone' then value END) as ["Q4. Which of these did you feel as a result of your conversation - Less Alone"]
+, MAX ( case when Question_ID = 211 and value = 'Less Distressed' then value END) as ["Q4. Which of these did you feel as a result of your conversation - Less Distressed"]
+, MAX ( case when Question_ID = 211 and value = 'Less Upset' then value END) as ["Q4. Which of these did you feel as a result of your conversation - Less Upset"]
+, MAX ( case when Question_ID = 211 and value = 'More Hopeful' then value END) as ["Q4. Which of these did you feel as a result of your conversation - More Hopeful"]
+, MAX ( case when Question_ID = 211 and value = 'More Confident' then value END) as ["Q4. Which of these did you feel as a result of your conversation - More Confident"]
+, MAX ( case when Question_ID = 211 and value = 'More In-Control' then value END) as ["Q4. Which of these did you feel as a result of your conversation - More In-Control"]
+, MAX ( case when Question_ID = 211 and value = 'None of the above' then value END) as ["Q4. Which of these did you feel as a result of your conversation - None of the above"]
+,MAX ( CASE WHEN
+	Question_ID = 211 and value != 'Less Alone'    AND
+	Question_ID = 211 and value != 'Less Distressed'    AND
+	Question_ID = 211 and value != 'Less Upset'    AND
+	Question_ID = 211 and value != 'More Hopeful'    AND			
+	Question_ID = 211 and value != 'More Confident'    AND
+	Question_ID = 211 and value != 'More In-Control'    AND
+	Question_ID = 211 and value != 'None of the above'    AND
+	Question_ID = 211 and value != 'Other - Write In'
+     	THEN value END  
+ ) as ["Q4. Other - Write In"]
+
+, MAX ( case when Question_ID = 217  then value END) as ["Q9. How confident are you that you can now cope with your situation"]
+, MAX ( case when Question_ID = 218  then value END) as ["Q10. How likely are you to recommend this service to a friend or someone with the issue you texted in about"]
+, MAX ( case when Question_ID = 219  then value END) as ["Q11. I was satisfied with the service I received today"]
+, MAX ( case when Question_ID = 220  then value END) as ["Q12. The service was easy to use"]
+
+
+, MAX ( case when Question_ID = 221 and value = 'Called a helpline, such as Kids Help Phone'  then value END) as ["Q13. If I could not have texted, I would have:Called a helpline, such as Kids Help Phone"]
+, MAX ( case when Question_ID = 221 and value = 'Gone to a healthcare provider'  then value END) as ["Q13. If I could not have texted, I would have:Gone to a healthcare provider"]
+, MAX ( case when Question_ID = 221 and value = 'Gone to the emergency room'  then value END) as ["Q13. If I could not have texted, I would have:Gone to the emergency room"]
+, MAX ( case when Question_ID = 221 and value = 'Searched online for services or information to help me'  then value END) as ["Q13. If I could not have texted, I would have:Searched online for services or information to help me"]
+, MAX ( case when Question_ID = 221 and value = 'Managed the issue on my own'  then value END) as ["Q13. If I could not have texted, I would have:Managed the issue on my own"]
+, MAX ( case when Question_ID = 221 and value = 'Spoken to a friend'  then value END) as ["Q13. If I could not have texted, I would have:Spoken to a friend"]
+, MAX ( case when Question_ID = 221 and value = 'Spoken to a family member'  then value END) as ["Q13. If I could not have texted, I would have:Spoken to a family member"]
+, MAX ( case when Question_ID = 221 and value = 'Not spoken to anyone'  then value END) as ["Q13. If I could not have texted, I would have:Not spoken to anyone"]
+, MAX ( case when Question_ID = 221 and value = 'Ignored the issue and hoped it got better or went away'  then value END) as ["Q13. If I could not have texted, I would have:Ignored the issue and hoped it got better or went away"]
+,MAX(case when 
+Question_ID = 221 and value != 'Called a helpline, such as Kids Help Phone' and 
+Question_ID = 221 and value != 'Gone to a healthcare provider'   and 
+Question_ID = 221 and value != 'Gone to the emergency room'   and
+Question_ID = 221 and value != 'Searched online for services or information to help me'   and
+Question_ID = 221 and value != 'Managed the issue on my own'   and
+Question_ID = 221 and value != 'Spoken to a friend'   and
+Question_ID = 221 and value != 'Spoken to a family member'   and
+Question_ID = 221 and value != 'Not spoken to anyone'   and
+Question_ID = 221 and value != 'Ignored the issue and hoped it got better or went away'   and
+Question_ID = 221 and value != 'Other - Write In'   
+     THEN value END   
+) as ["Q13. Other - Write In"]
+
+
+from CTE 
+where time_submitted >= '2018-02-15' and Time_submitted < '2018-03-01'
+
+group by Response_ID
+order by Response_ID

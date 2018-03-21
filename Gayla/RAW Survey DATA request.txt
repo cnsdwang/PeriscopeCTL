@@ -1,0 +1,51 @@
+the raw survey data (as CSV) for the Texter Survey questions #217, 219, 220 and 221 for the period
+
+217
+select 
+'"'+v.value                  +'",'+'"' +  r.returning_responder  +'",'+ '"' +   r.status +'",'  + '"' + r.time_submitted + '"' as VALUE
+from texter_survey_response as r   join    texter_survey_response_value as v
+on r.id = v.response_id
+where v.question_id =217 and r.time_submitted >= '2018-02-15' and r.time_submitted <= '2018-02-28'
+
+
+219
+select 
+'"'+v.value                  +'",'+'"' +  r.returning_responder  +'",'+ '"' +   r.status +'",'  + '"' + r.time_submitted + '"' as VALUE
+from texter_survey_response as r   join    texter_survey_response_value as v
+on r.id = v.response_id
+where v.question_id =219 and r.time_submitted >= '2018-02-15' and r.time_submitted <= '2018-02-28'
+
+
+
+
+220
+select 
+'"'+v.value                  +'",'+'"' +  r.returning_responder  +'",'+ '"' +   r.status +'",'  + '"' + r.time_submitted + '"' as VALUE
+from texter_survey_response as r   join    texter_survey_response_value as v
+on r.id = v.response_id
+where v.question_id =220 and r.time_submitted >= '2018-02-15' and r.time_submitted <= '2018-02-28'
+
+
+
+
+221
+select 
+'"'+v.value                  +'",'+'"' +  r.returning_responder  +'",'+ '"' +   r.status +'",'  + '"' + r.time_submitted + '"' as VALUE
+from texter_survey_response as r   join    texter_survey_response_value as v
+on r.id = v.response_id
+where v.question_id =221 and r.time_submitted >= '2018-02-15' and r.time_submitted <= '2018-02-28'
+
+
+
+Texter
+select    ( '"Total",' + '"' +CAST(sum(Texters) as Varchar(8)) + '"'   )        as [Texter]  
+from  [kpis_all] where Date_ >='2018-02-15' and Date_ <= '2018-02-28' 
+union all
+ 
+    select   ( '"'+ CAST(Date_ as varchar(10))  + '",' + '"' +CAST(Texters as Varchar(8)) + '"'   ) as [Texter]
+    from 
+        (
+          select Date_ , Texters  from [kpis_all] where Date_ >='2018-02-15' and Date_ <= '2018-02-28' order by Date_
+          ) as a
+ order by [Texter]
+

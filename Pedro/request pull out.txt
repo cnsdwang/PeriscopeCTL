@@ -1,0 +1,44 @@
+Request on Wed 3/14/2018 12:57 PM
+Wants to have it on March 19
+7) To which ethnic or cultural group(s) do you see yourself as belonging?
+select q.khpquestion as [question], pv.value  from texter_survey_response_value as pv  join [squestions as q] on pv.question_ID = q.qid
+where question_ID =75
+
+
+8) I identify as part of these groups
+select q.khpquestion as [question], pv.value  from texter_survey_response_value as pv  join [squestions as q] on pv.question_ID = q.qid
+where question_ID =210
+
+
+9) How did you learn about us
+select q.khpquestion as [question], pv.value  from texter_survey_response_value as pv  join [squestions as q] on pv.question_ID = q.qid
+where question_ID =144
+
+
+10) Which of these did you feel as a result of your conversation?
+select q.khpquestion as [question], pv.value  from texter_survey_response_value as pv  join [squestions as q] on pv.question_ID = q.qid
+where question_ID =211
+
+
+13) After finishing your conversation today with the responder on a scale of 0 – 7, how stressed out…
+select q.khpquestion as [question], pv.value  from texter_survey_response_value as pv  join [squestions as q] on pv.question_ID = q.qid
+where question_ID =215
+
+
+
+14) Thinking back to the time before you connected with the responder, how stressed out …
+select q.khpquestion as [question], pv.value  from texter_survey_response_value as pv  join [squestions as q] on pv.question_ID = q.qid
+where question_ID =216
+
+
+19) If I could not have texted, I would have
+select q.khpquestion as [question], pv.value  from texter_survey_response_value as pv  join [squestions as q] on pv.question_ID = q.qid
+where question_ID =221
+
+
+
+
+20) Where in the media did you learn about us?
+select q.khpquestion as [question], pv.value  from texter_survey_response_value as pv  join [squestions as q] on pv.question_ID = q.qid
+where question_ID =145
+

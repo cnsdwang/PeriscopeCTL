@@ -1,0 +1,281 @@
+ <html xmlns:o="urn:schemas-microsoft-com:office:office"
+   xmlns:w="urn:schemas-microsoft-com:office:word"
+   xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="SurveyGizmo 3.0">
+<meta name="Originator" content="SurveyGizmo 3.0">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<style>
+<!--
+/* Style Definitions */
+p.normalText, li.normalText, div.normalText{
+   mso-style-parent: "";
+   margin: 0cm;
+   margin-bottom: 6pt;
+   mso-pagination: widow-orphan;
+   font-size: 12pt;
+   font-family: "";
+   mso-fareast-font-family: "";
+}
+
+table.normalTable{
+   mso-style-name: "Tabela com grade";
+   mso-tstyle-rowband-size: 0;
+   mso-tstyle-colband-size: 0;
+   border-collapse: collapse;
+   mso-border-alt: solid windowtext pt;
+   mso-yfti-tbllook: 480;
+   mso-padding-alt: 0cm pt 0cm pt;
+   mso-border-insideh: pt solid windowtext;
+   mso-border-insidev: pt solid windowtext;
+   mso-para-margin: 0cm;
+   mso-para-margin-bottom: .0001pt;
+   mso-pagination: widow-orphan;
+   font-size: 12pt;
+   font-family: "";
+}
+table.normalTable td{
+   border: solid windowtext 1.0pt;
+   border-left: none;
+   mso-border-left-alt: solid windowtext .5pt;
+   mso-border-alt: solid windowtext .5pt;
+   padding: 0cm 5.4pt 0cm 5.4pt;
+}
+
+table.tableWithoutGrid{
+   mso-style-name: "Tabela sem grade";
+   mso-tstyle-rowband-size: 0;
+   mso-tstyle-colband-size: 0;
+   border-collapse: collapse;
+   border: none;
+   mso-border-alt: none;
+   mso-yfti-tbllook: 480;
+   mso-padding-alt: 0cm pt 0cm pt;
+   mso-border-insideh: pt solid windowtext;
+   mso-border-insidev: pt solid windowtext;
+   mso-para-margin: 0cm;
+   mso-para-margin-bottom: .0001pt;
+   mso-pagination: widow-orphan;
+   font-size: 12pt;
+   font-family: "";
+}
+
+
+-->
+</style>
+</head>
+<body lang="" style="tab-interval: 35.4pt">
+<p class="normalText"><h1>Texter Survey</h1><hr></p>
+<p class="normalText"><h2>Crisis Text Line Survey</h2></p>
+<p class="normalText"><br/></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 63</p>
+<p class="normalText"><h3><strong>Thanks in advance for sharing! Your responses will help us support future texters. </strong><br />
+ 
+<p dir="ltr"><b id="docs-internal-guid-51d73a27-66ab-9d2e-5dc2-f1784ee00bd2">Survey Privacy Policy:</b></p>
+
+<p dir="ltr"><b>1. You can skip questions.<br />
+2. Responses are anonymous.</b><br /><b>3. If you leave a note for your Crisis Responder, we'll share it with them! Your note might also be used for marketing and training to show the amazing impact of Crisis Text Line powered by Kids Help Phone. FYI: no names, phone number, or personal information will ever be shared! (So, your Crisis Responder, etc. will only see general feels/feedback.)</b></p></h3></p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 64</p>
+<p class="normalText"><h4>1) Did you find this conversation helpful?</h4></p>
+<p class="normalText"> ( ) Yes</p>
+<p class="normalText"> ( ) No</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 65</p>
+<p class="normalText"><h4>2) How helpful was it?</h4></p>
+<p class="normalText"> ( ) 1 (slightly helpful)</p>
+<p class="normalText"> ( ) 2</p>
+<p class="normalText"> ( ) 3</p>
+<p class="normalText"> ( ) 4</p>
+<p class="normalText"> ( ) 5 (very helpful)</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 66</p>
+<p class="normalText"><h3>3) Would you like to leave a note for your Crisis Responder? (Remember, this note will be shown to your Crisis Responder, but none of your other answers will be.)</h3></p>
+<p class="normalText"> ____________________________________________ </p>
+<p class="normalText"> ____________________________________________ </p>
+<p class="normalText"> ____________________________________________ </p>
+<p class="normalText"> ____________________________________________ </p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 68</p>
+<p class="normalText"><h3><strong>The next few questions ask about your age, gender, etc. This information helps us understand how to better help others. Answer or skip, either is OK with us!</strong></h3></p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 69</p>
+<p class="normalText"><h4>4) How old are you?</h4></p>
+<p class="normalText"> ( ) Prefer not to answer</p>
+<p class="normalText"> ( ) 13 or younger</p>
+<p class="normalText"> ( ) 14</p>
+<p class="normalText"> ( ) 15</p>
+<p class="normalText"> ( ) 16</p>
+<p class="normalText"> ( ) 17</p>
+<p class="normalText"> ( ) 18-20</p>
+<p class="normalText"> ( ) 21-24</p>
+<p class="normalText"> ( ) 25-29</p>
+<p class="normalText"> ( ) 30-39</p>
+<p class="normalText"> ( ) 40-49</p>
+<p class="normalText"> ( ) 50-59</p>
+<p class="normalText"> ( ) 60-69</p>
+<p class="normalText"> ( ) 70+</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 73</p>
+<p class="normalText"><h4>5) Gender. Do you consider yourself to be:</h4></p>
+<p class="normalText"> ( ) Prefer not to answer</p>
+<p class="normalText"> ( ) Agender</p>
+<p class="normalText"> ( ) Female</p>
+<p class="normalText"> ( ) Genderqueer</p>
+<p class="normalText"> ( ) Male</p>
+<p class="normalText"> ( ) Trans female</p>
+<p class="normalText"> ( ) Trans male</p>
+<p class="normalText"> ( ) Other - Write In: _________________________________________________</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 74</p>
+<p class="normalText"><h4>6) Sexual orientation. Do you consider yourself to be:</h4></p>
+<p class="normalText"> ( ) Prefer not to answer</p>
+<p class="normalText"> ( ) Asexual</p>
+<p class="normalText"> ( ) Bisexual or Pansexual</p>
+<p class="normalText"> ( ) Gay or Lesbian</p>
+<p class="normalText"> ( ) Heterosexual or Straight</p>
+<p class="normalText"> ( ) Questioning or Unsure</p>
+<p class="normalText"> ( ) Other - Write In: _________________________________________________</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 75</p>
+<p class="normalText"><h4>7) People are often described as belonging to different racial, ethnic, or cultural groups, for example, Filipino, Jamaican, English, or Inuit. To which ethnic or cultural group(s) do you see yourself as belonging? (Select all that apply)</h4></p>
+<p class="normalText"> [ ] Canadian</p>
+<p class="normalText"> [ ] British</p>
+<p class="normalText"> [ ] French</p>
+<p class="normalText"> [ ] Quebeqois</p>
+<p class="normalText"> [ ] First Nations, Métis, or Inuk</p>
+<p class="normalText"> [ ] White, European, or Caucasian</p>
+<p class="normalText"> [ ] South Asian (e.g., East Indian, Pakistani, Sri Lankan)</p>
+<p class="normalText"> [ ] Asian (e.g., Korean, Chinese, Japanese)</p>
+<p class="normalText"> [ ] African</p>
+<p class="normalText"> [ ] Caribbean</p>
+<p class="normalText"> [ ] South East Asian (e.g., Cambodian, Indonesian, Laotian, Vietnamese)</p>
+<p class="normalText"> [ ] West Asian to Middle Eastern (e.g., Armenian, Egyptian, Iranian, Lebanese)</p>
+<p class="normalText"> [ ] Latin American (e.g., Mexican, South American, Central American)</p>
+<p class="normalText"> [ ] Other - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] Don't know</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 210</p>
+<p class="normalText"><h4>8) I identify as part of these groups (please select all that apply):</h4></p>
+<p class="normalText"> [ ] Canadian Culture</p>
+<p class="normalText"> [ ] Indigenous - Within Canada</p>
+<p class="normalText"> [ ] Indigenous - Outside Canada</p>
+<p class="normalText"> [ ] Immigrant/Newcomer/Permanent Resident</p>
+<p class="normalText"> [ ] Refugee/Stateless/No Status</p>
+<p class="normalText"> [ ] Visible Minority</p>
+<p class="normalText"> [ ] Member of a Religious or Spiritual Community</p>
+<p class="normalText"> [ ] Differently Abled (Physical/Developmental/Learning Disability</p>
+<p class="normalText"> [ ] Deaf or Hard of Hearing</p>
+<p class="normalText"> [ ] Other - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] Prefer not to answer OR none of the above</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 144</p>
+<p class="normalText"><h4>9) <b id="docs-internal-guid-e0beb2ea-33a0-e795-f29a-319f01c294ef">How did you learn about us? (Select all that apply)</b></h4></p>
+<p class="normalText"> [ ] From a family member or friend</p>
+<p class="normalText"> [ ] Media or social media</p>
+<p class="normalText"> [ ] Google search - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] At school - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] From a medical or mental health professional - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] Other - Write In: _________________________________________________</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 87</p>
+<p class="normalText"><h3><strong>Finally, we're going to ask you a few questions about your experience using Crisis Text Line today.</strong></h3></p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 211</p>
+<p class="normalText"><h4>10) Which of these did you feel as a result of your conversation? Please select all that apply:</h4></p>
+<p class="normalText"> [ ] Less Alone</p>
+<p class="normalText"> [ ] Less Distressed</p>
+<p class="normalText"> [ ] Less Upset</p>
+<p class="normalText"> [ ] More Hopeful</p>
+<p class="normalText"> [ ] More Confident</p>
+<p class="normalText"> [ ] More In-Control</p>
+<p class="normalText"> [ ] None of the above</p>
+<p class="normalText"> [ ] Other - Write In: _________________________________________________</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 213</p>
+<p class="normalText"><h4>11) Do you agree or disagree with this statement:  The responder gave me new ways of looking at what I texted about.</h4></p>
+<p class="normalText"> ( ) Strongly disagree&#009; ( ) Disagree&#009; ( ) Neither agree or disagree&#009; ( ) Agree&#009; ( ) Strongly agree&#009; ( ) Choose not to answer</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 214</p>
+<p class="normalText"><h4>12) In your conversation, did you mention an experience or feelings that you have not shared with anyone else?</h4></p>
+<p class="normalText"> ( ) Yes</p>
+<p class="normalText"> ( ) No</p>
+<p class="normalText"> ( ) Not sure</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 215</p>
+<p class="normalText"><h4>13) After finishing your conversation today with the responder on a scale of 0 - 7, where 0 is not at all stressed and 7 is extremely stressed, how stressed are you right now?</h4></p>
+<p class="normalText"> ( ) 0 - Not at all stressed&#009; ( ) 1&#009; ( ) 2&#009; ( ) 3&#009; ( ) 4&#009; ( ) 5&#009; ( ) 6&#009; ( ) 7 - Extremely stressed</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 216</p>
+<p class="normalText"><h4>14) Thinking back to the time before you connected with the responder, on a scale of 0 - 7, where 0 is not at all stressed and 7 is extremely stressed, how stressed were you feeling about this concern or situation at the beginning of your conversation?</h4></p>
+<p class="normalText"> ( ) 0 - Not at all stressed&#009; ( ) 1&#009; ( ) 2&#009; ( ) 3&#009; ( ) 4&#009; ( ) 5&#009; ( ) 6&#009; ( ) 7 - Extremely stressed</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 217</p>
+<p class="normalText"><h4>15) On a scale of 0 - 7, where 0 is not at all confident and 7 is very confident, how confident are you that you can now cope with your situation?</h4></p>
+<p class="normalText"> ( ) 0 - Not at all confident&#009; ( ) 1&#009; ( ) 2&#009; ( ) 3&#009; ( ) 4&#009; ( ) 5&#009; ( ) 6&#009; ( ) 7 - Very confident</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 218</p>
+<p class="normalText"><h4>16) On a scale of 0 - 7, where 0 is not likely and 7 is very likely, how likely are you to recommend this service to a friend or someone with the issue you texted in about?</h4></p>
+<p class="normalText"> ( ) 0 - Not likely&#009; ( ) 1&#009; ( ) 2&#009; ( ) 3&#009; ( ) 4&#009; ( ) 5&#009; ( ) 6&#009; ( ) 7 - Very likely</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 219</p>
+<p class="normalText"><h4>17) I was satisfied with the service I received today</h4></p>
+<p class="normalText"> ( ) 0 - Not at all satisfied&#009; ( ) 1&#009; ( ) 2&#009; ( ) 3&#009; ( ) 4&#009; ( ) 5&#009; ( ) 6&#009; ( ) 7 - Very satisfied</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 220</p>
+<p class="normalText"><h4>18) The service was easy to use</h4></p>
+<p class="normalText"> ( ) 0 - Not easy to use&#009; ( ) 1&#009; ( ) 2&#009; ( ) 3&#009; ( ) 4&#009; ( ) 5&#009; ( ) 6&#009; ( ) 7 - Very easy to use</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 221</p>
+<p class="normalText"><h4>19) If I could not have texted, I would have: (please choose all that apply)</h4></p>
+<p class="normalText"> [ ] Called a helpline, such as Kids Help Phone</p>
+<p class="normalText"> [ ] Gone to a healthcare provider</p>
+<p class="normalText"> [ ] Gone to the emergency room</p>
+<p class="normalText"> [ ] Searched online for services or information to help me</p>
+<p class="normalText"> [ ] Managed the issue on my own</p>
+<p class="normalText"> [ ] Spoken to a friend</p>
+<p class="normalText"> [ ] Spoken to a family member</p>
+<p class="normalText"> [ ] Not spoken to anyone</p>
+<p class="normalText"> [ ] Ignored the issue and hoped it got better or went away</p>
+<p class="normalText"> [ ] Other - Write In: _________________________________________________</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 145</p>
+<p class="normalText"><h4>20) Where in the media did you learn about us? (Select all that apply)</h4></p>
+<p class="normalText"> [ ] News article - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] Facebook - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] Twitter - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] Instagram - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] Snapchat - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] YouTube - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] Celebrity - Write In: _________________________________________________</p>
+<p class="normalText"> [ ] Other - Write In: _________________________________________________</p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 101</p>
+<p class="normalText"><h3><strong>Please click the arrow below to submit your answers.</strong></h3></p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText"><hr></p>
+<p class="normalText"><h2>Thank You!</h2></p>
+<p class="normalText"><br/></p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText" style="background-color: #FFE066;padding: 5px;border: 1px solid black;">ID: 147</p>
+<p class="normalText"><h3><div style="text-align: center;">All done -- Thank you for sharing your voice to help us be better :).<br /><br />
+Close this page to end the survey.</div></h3></p>
+<p class="normalText"><p><br><br></p></p>
+<p class="normalText"><hr></p>
+</div>
+
+</body>
+</html>
