@@ -1,3 +1,5 @@
+
+
 --  select ID,Response_ID,Question_ID,value, extension_ID from texter_survey_response_value where response_id= 69
 
 --  select ID, ACTOR_ID,Conversation_ID,Response_ID, Returning_responder, status,Time_submitted,time_imported from texter_survey_response
@@ -19,6 +21,7 @@ select v.ID, v.Response_ID, v.Question_ID,q.khpquestion , v.value , r.status, r.
 )
 select response_id  as [ID]
 , MAX ( CASE WHEN Question_ID = 64  THEN value END) as ["Q1. Did you find this conversation helpful"]   -- Q_1
+, MAX ( CASE WHEN Question_ID = 65  THEN value END) as ["Q1_Nest. How helpful was it?"]   -- Q_1_nest
 , MAX ( CASE when Question_ID = 69  then value END) as ["How old are you"]   -- Q_iii
 
 
@@ -58,7 +61,7 @@ select response_id  as [ID]
 , MAX ( case when Question_ID = 75 and value = 'British' then value END) as ["To which ethnic or cultural group(s) do you see yourself as belonging - British"]  -- Q_vi
 , MAX ( case when Question_ID = 75 and value = 'French' then value END) as ["To which ethnic or cultural group(s) do you see yourself as belonging - French"]  -- Q_vi
 , MAX ( case when Question_ID = 75 and value = 'Quebeqois' then value END) as ["To which ethnic or cultural group(s) do you see yourself as belonging - Quebeqois"]  -- Q_vi
-, MAX ( case when Question_ID = 75 and value = 'First Nations, Métis, or Inuk' then value END) as ["To which ethnic or cultural group(s) do you see yourself as belonging - First Nations, Métis, or Inuk"]  -- Q_vi
+, MAX ( case when Question_ID = 75 and value = 'First Nations, MÃ©tis, or Inuk' then value END) as ["To which ethnic or cultural group(s) do you see yourself as belonging - First Nations, MÃ©tis, or Inuk"]  -- Q_vi
 , MAX ( case when Question_ID = 75 and value = 'White, European, or Caucasian' then value END) as ["To which ethnic or cultural group(s) do you see yourself as belonging - White, European, or Caucasian"]  -- Q_vi
 , MAX ( case when Question_ID = 75 and value = 'South Asian (e.g., East Indian, Pakistani, Sri Lankan)' then value END) as ["To which ethnic or cultural group(s) do you see yourself as belonging - South Asian (e.g., East Indian, Pakistani, Sri Lankan)"]  -- Q_vi
 , MAX ( case when Question_ID = 75 and value = 'Asian (e.g., Korean, Chinese, Japanese)' then value END) as ["To which ethnic or cultural group(s) do you see yourself as belonging - Asian (e.g., Korean, Chinese, Japanese)"]  -- Q_vi
@@ -73,7 +76,7 @@ select response_id  as [ID]
 		 and value != 'British'    
 		 and value != 'French'    
 		 and value != 'Quebeqois'   
-		 and value != 'First Nations, Métis, or Inuk'   
+		 and value != 'First Nations, MÃ©tis, or Inuk'   
 		 and value != 'White, European, or Caucasian'   
 		 and value != 'South Asian (e.g., East Indian, Pakistani, Sri Lankan)'    
 		 and value != 'Asian (e.g., Korean, Chinese, Japanese)'    
