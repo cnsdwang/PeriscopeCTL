@@ -20,6 +20,7 @@ select v.ID, v.Response_ID, v.Question_ID,q.khpquestion , v.value , r.status, r.
         left join [squestions as q] on v.Question_ID = q.qid
 )
 select response_id  as [ID]
+, MIN (Time_submitted) AS ["Survey Date"]
 , MAX ( CASE WHEN Question_ID = 64  THEN value END) as ["Q1. Did you find this conversation helpful"]   -- Q_1
 , MAX ( CASE WHEN Question_ID = 65  THEN value END) as ["Q1_Nest. How helpful was it?"]   -- Q_1_nest
 , MAX ( CASE when Question_ID = 69  then value END) as ["How old are you"]   -- Q_iii
@@ -187,7 +188,7 @@ select response_id  as [ID]
 
 
 from CTE 
-where time_submitted >= '2018-02-15' and Time_submitted < '2018-03-01'
+where time_submitted >= '2018-02-15' and Time_submitted < '2018-05-01'
 
 group by Response_ID
 order by Response_ID
