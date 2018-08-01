@@ -23,6 +23,7 @@ select response_id  as [ID]
 
 , MAX ( case when Question_ID = 211 and value = 'Less Alone' then value END) as ["Q4. Which of these did you feel as a result of your conversation - Less Alone"]
 , MAX ( case when Question_ID = 211 and value = 'Less Distressed' then value END) as ["Q4. Which of these did you feel as a result of your conversation - Less Distressed"]
+, MAX ( case when Question_ID = 211 and value = 'Less overwhelmed' then value END) as ["Q4. Which of these did you feel as a result of your conversation - Less overwhelmed"]
 , MAX ( case when Question_ID = 211 and value = 'Less Upset' then value END) as ["Q4. Which of these did you feel as a result of your conversation - Less Upset"]
 , MAX ( case when Question_ID = 211 and value = 'More Hopeful' then value END) as ["Q4. Which of these did you feel as a result of your conversation - More Hopeful"]
 , MAX ( case when Question_ID = 211 and value = 'More Confident' then value END) as ["Q4. Which of these did you feel as a result of your conversation - More Confident"]
@@ -31,6 +32,7 @@ select response_id  as [ID]
 ,MAX ( CASE WHEN Question_ID = 211
 				and value != 'Less Alone'    
 				and value != 'Less Distressed'    
+				and value != 'Less overwhelmed'		
 				and value != 'Less Upset'    
 				and value != 'More Hopeful'    			
 				and value != 'More Confident'    
