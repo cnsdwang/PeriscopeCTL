@@ -190,7 +190,7 @@ select response_id  as [ID]
 
 
 from CTE 
-where time_submitted >= '2018-05-01' and Time_submitted < '2018-06-01'
+where time_submitted >= '2018-07-01' and Time_submitted < '2018-08-01'
 
 group by Response_ID
 order by Response_ID
