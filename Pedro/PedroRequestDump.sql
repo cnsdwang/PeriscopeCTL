@@ -18,8 +18,10 @@ select v.ID, v.Response_ID, v.Question_ID,q.khpquestion , v.value , r.status, r.
   from texter_survey_response_value as v 
         left join texter_survey_response as r on r.id=v.response_id
         left join [squestions as q] on v.Question_ID = q.qid
+	left join [general_sigtables as g] on g.conversation_id = r.conversation_id
 )
 select response_id  as [ID]
+, MAX (PROVINCE) AS [Province]
 , MIN (Time_submitted) AS ["Survey Date"]
 , MAX ( CASE WHEN Question_ID = 64  THEN value END) as ["Q1. Did you find this conversation helpful"]   -- Q_1
 , MAX ( CASE WHEN Question_ID = 65  THEN value END) as ["Q1_Nest. How helpful was it?"]   -- Q_1_nest
